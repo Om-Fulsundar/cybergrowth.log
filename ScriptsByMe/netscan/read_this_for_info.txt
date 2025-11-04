@@ -1,0 +1,18 @@
+## 🧪 Network Scanner — ARP-based IP & MAC Discovery 
+
+This script scans a given IP range and lists live hosts with their MAC addresses using Scapy. 
+
+🔧 Dependencies: `scapy`, `prettytable`  
+⚠️ Requires root privileges to run
+
+### Usage :
+sudo python3 netscan.py
+
+### Working :
+When the user provides a subnet (e.g., 192.168.1.0/24), the program first crafts ARP packets to discover active hosts.
+ARP (Address Resolution Protocol) is used to map IP addresses to MAC addresses within a local network. 
+Since we don’t know the MAC addresses of the target devices, we send ARP requests to the broadcast MAC address (ff:ff:ff:ff:ff:ff) asking:
+"Who has this IP? Tell me your MAC."
+We use Scapy’s srp() function to send and receive these packets at Layer 2. If a host responds, we extract its IP and MAC address and store them in a dictionary.
+Finally, we use PrettyTable to display the results in a clean, readable table format.
+
