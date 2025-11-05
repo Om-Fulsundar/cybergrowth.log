@@ -1,0 +1,20 @@
+# 🔍 Simple Python Port Scanner
+This is a lightweight Python-based TCP port scanner. It uses Python’s built-in `socket` module to check for open ports on a target IP address.
+
+## 🚀 Features
+- No external dependencies
+- Optional port range selection
+- Fast and minimal CLI interface
+- Timeout and error handling
+
+### usage :
+python3 Portscanner_simple.py <IP> [start_port] [end_port]
+### example :
+python3 Portscanner_simple.py 192.168.24.1
+python3 Portscanner_simple.py 192.168.24.1 1 1000
+
+[start and end ports are optional for input, default it will scan all 1 to 65535 ports.]
+
+⚠️ Note
+This is a basic port scanner and does not use multithreading, which may affect scan speed. 
+A threaded version with performance improvements will be released as part of the Advanced Port Scanner.
