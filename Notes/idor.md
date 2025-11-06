@@ -1,11 +1,5 @@
-Here’s your updated, GitHub-ready Markdown note for **IDOR**, now including a short optional section on automation—only where it adds real value. The tone is clean, human, and practical, just like you'd write it.
-
----
-
 
 # Insecure Direct Object Reference (IDOR)
-
-## Overview
 
 IDOR happens when a server exposes internal object references (like user IDs, file names, or tokens) without checking if the user is authorized to access them. If the app trusts user input blindly, attackers can tamper with parameters to access or modify other users' data.
 
