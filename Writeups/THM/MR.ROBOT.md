@@ -1,4 +1,3 @@
-
 #  Mr. Robot CTF Writeup — A Journey Through fsociety
 
 
@@ -100,7 +99,7 @@ Boom. First key in the bag.
 
 Saved `fsocity.dic` . it was list of usernames.. repetitive and very long dictionary of usernames.
 
-Then `/license` dropped something interesting. first i thought there is nothing but when i scrolled I got jackpot.
+Then `/license` dropped something interesting. first I thought there is nothing but when i scrolled I got jackpot.
 
 
 <img width="1914" height="874" alt="Screenshot_2025-11-18_15_29_50" src="https://github.com/user-attachments/assets/cb3b591a-1efa-4d5a-a981-66df00562592" />
@@ -150,7 +149,7 @@ Plugged in Elliot’s creds, and we’re in.
 
 
 
-I checked all the functionailties here.. discovered many things but found something in appearance section.. we can edit various php files and execute them. 
+I checked all the functionalities here.. discovered many things but found something in appearance section.. we can edit various php files and execute them. 
 
 Time for RCE shell.
 
@@ -321,7 +320,7 @@ Listener on Netcat:
 nc -lvnp 4444
 ```
 
-I triggered via browser :
+I triggered it via browser :
 
 <img width="507" height="244" alt="Screenshot 2025-11-18 170033" src="https://github.com/user-attachments/assets/553f8af6-ee9c-4a8c-8eb3-ad31baca2018" />
 
