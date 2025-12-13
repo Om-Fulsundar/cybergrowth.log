@@ -46,4 +46,3 @@ or make it executable and run :
 
 
 
-Let me know when you push this to GitHub — I can help you write the commit message or batch your README sections for future tools.
