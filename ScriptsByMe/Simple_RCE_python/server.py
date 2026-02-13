@@ -8,7 +8,7 @@ s.listen(1)
 client,addr = s.accept()
 print("Connected")
 
-while true:
+while True:
     cmd = input("$ ")
     client.send(cmd.encode())
     if cmd == "exit":
