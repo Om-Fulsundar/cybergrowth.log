@@ -1,6 +1,6 @@
 #  cybergrowth.log
 
-> *A practical cybersecurity portfolio built from the ground up — scripting tools, CTF writeups, lab configurations, and bug hunting notes.*
+> *A practical cybersecurity portfolio built from the ground up - scripting tools, CTF writeups, lab configurations, and bug hunting notes.*
 
 ---
 
@@ -8,11 +8,11 @@
 
 **cybergrowth.log** is my hands-on cybersecurity learning journal as a student exploring offensive security. This repo brings together three pillars of my growth:
 
--  **Writeups** — Step-by-step CTF and machine walkthroughs
--  **Notes** — Structured study notes on tools, techniques, and concepts
--  **ScriptsByMe** — Custom Python scripts built to automate and solve real problems
+-  **Writeups** - Step-by-step CTF and machine walkthroughs
+-  **Notes** - Structured study notes on tools, techniques, and concepts
+-  **ScriptsByMe** - Custom Python scripts built to automate and solve real problems
 
-Every commit here reflects persistent problem-solving, real-world experimentation, and a commitment to documenting the learning process — not just the results.
+Every commit here reflects persistent problem-solving, real-world experimentation, and a commitment to documenting the learning process - not just the results.
 
 ---
 
@@ -50,7 +50,7 @@ Detailed walkthroughs of CTF challenges and practice machines. Each writeup cove
 
 ##  Notes
 
-Organized notes from labs, courses, and research — built to be referenced again and again. Topics include:
+Organized notes from labs, courses, and research - built to be referenced again and again. Topics include:
 
 - Network scanning & enumeration (`nmap`, `gobuster`, `enum4linux`)
 - Web exploitation (OWASP, Burp Suite, header injection)
@@ -89,7 +89,7 @@ Python scripts written from scratch to solve specific problems or automate repet
 
 ## 🔗 Connect
 
--  [Medium](https://medium.com/@om.fulsundar.7370) — Writeup articles & cybersecurity blogs
+-  [Medium](https://medium.com/@om.fulsundar.7370) - Writeup articles & cybersecurity blogs
 -  [GitHub](https://github.com/Om-Fulsundar)
 
 ---
